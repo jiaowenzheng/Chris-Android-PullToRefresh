@@ -14,4 +14,4 @@
         ptr:ptrHeaderBackground="@android:color/darker_gray"
         ptr:ptrMode="both" />
 
-</FrameLayout><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/sample/src/main/res/layout/activity_ptr_viewpager.xml -->
+</FrameLayout><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/sample/src/main/res/layout/activity_ptr_viewpager.xml -->

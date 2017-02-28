@@ -19,4 +19,4 @@
     android:duration="@android:integer/config_longAnimTime"
     android:fromYDelta="0"
     android:toYDelta="-100%p" />
-<!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/library/src/main/res/anim/slide_out_to_top.xml --><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/pullToRefreshListFragment/build/intermediates/exploded-aar/Android-PullToRefresh-sample/library/unspecified/res/anim/slide_out_to_top.xml -->
+<!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/library/src/main/res/anim/slide_out_to_top.xml --><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/pullToRefreshListFragment/build/intermediates/exploded-aar/Chris-Android-PullToRefresh/library/unspecified/res/anim/slide_out_to_top.xml -->

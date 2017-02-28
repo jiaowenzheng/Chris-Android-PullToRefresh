@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:background="#FFFF"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
@@ -8,10 +9,10 @@
     <com.handmark.pulltorefresh.library.PullToRefreshRecyclerView
         xmlns:ptr="http://schemas.android.com/apk/res-auto"
         android:id="@+id/pull_refresh_recycler"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent"
-        android:gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
         ptr:ptrMode="both"
-        ptr:ptrDrawable="@drawable/android" />
+        ptr:ptrDrawable="@drawable/sample_footer_loading"
+         />
 
 </LinearLayout>

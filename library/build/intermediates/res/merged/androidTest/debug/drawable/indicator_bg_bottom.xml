@@ -15,4 +15,4 @@
         android:topLeftRadius="@dimen/indicator_corner_radius"
         android:topRightRadius="@dimen/indicator_corner_radius" />
 
-</shape><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/library/src/main/res/drawable/indicator_bg_bottom.xml --><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml -->
+</shape><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/library/src/main/res/drawable/indicator_bg_bottom.xml --><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml -->

@@ -6,4 +6,4 @@
     
     <!-- Need this for Maven, otherwise it doesn't build. I hate Maven. -->
 
-</LinearLayout><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/pullToRefreshListFragment/src/main/res/layout/need_this_for_maven.xml -->
+</LinearLayout><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/pullToRefreshListFragment/src/main/res/layout/need_this_for_maven.xml -->

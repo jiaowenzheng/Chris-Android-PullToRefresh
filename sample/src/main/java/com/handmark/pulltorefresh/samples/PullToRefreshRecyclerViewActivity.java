@@ -18,15 +18,13 @@ package com.handmark.pulltorefresh.samples;
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -45,10 +43,10 @@ public final class PullToRefreshRecyclerViewActivity extends Activity {
 
     static final int MENU_SET_MODE = 0;
 
-    private LinkedList<String> mListItems;
+    private LinkedList<String> mListItems = new LinkedList<String>();
     private PullToRefreshRecyclerView mPullRefreshRecyclerView;
     private RecyclerView mRecyclerView;
-    private ArrayAdapter<String> mAdapter;
+//    private ArrayAdapter<String> mAdapter;
 
     /**
      * Called when the activity is first created.
@@ -81,9 +79,10 @@ public final class PullToRefreshRecyclerViewActivity extends Activity {
 
         });
 
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mListItems.addAll(Arrays.asList(mDataItems));
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setAdapter(new DefaultAdapter());
+
     }
 
     /**
@@ -105,7 +104,7 @@ public final class PullToRefreshRecyclerViewActivity extends Activity {
         protected void onPostExecute(String[] result) {
             mListItems.addFirst("Added after refresh...");
             mListItems.addAll(Arrays.asList(result));
-            mAdapter.notifyDataSetChanged();
+            mRecyclerView.getAdapter().notifyDataSetChanged();
 
             // Call onRefreshComplete when the list has been refreshed.
             mPullRefreshRecyclerView.onRefreshComplete();
@@ -118,7 +117,7 @@ public final class PullToRefreshRecyclerViewActivity extends Activity {
     class DefaultAdapter extends RecyclerView.Adapter<DefaultViewHolder> {
         @Override
         public void onBindViewHolder(DefaultViewHolder holder, int position) {
-            holder.textView.setText(mListItems.get(position));
+//            holder.textView.setText(mListItems.get(position));
         }
 
         @Override
@@ -135,11 +134,11 @@ public final class PullToRefreshRecyclerViewActivity extends Activity {
 
 
     class DefaultViewHolder extends RecyclerView.ViewHolder {
-        public TextView textView;
+        public ImageView textView;
 
         public DefaultViewHolder(View view) {
             super(view);
-            textView = (TextView) view.findViewById(R.id.list_textview);
+            textView = (ImageView) view.findViewById(R.id.list_textview);
         }
     } // end of DefaultViewHolder
 

@@ -49,9 +49,9 @@ public final class R {
 	public static final class drawable {
 		public static final int default_ptr_flip = 0x7f020001;
 		public static final int default_ptr_rotate = 0x7f020002;
-		public static final int indicator_arrow = 0x7f020004;
-		public static final int indicator_bg_bottom = 0x7f020005;
-		public static final int indicator_bg_top = 0x7f020006;
+		public static final int indicator_arrow = 0x7f020005;
+		public static final int indicator_bg_bottom = 0x7f020006;
+		public static final int indicator_bg_top = 0x7f020007;
 	}
 	public static final class id {
 		public static final int both = 0x7f080005;

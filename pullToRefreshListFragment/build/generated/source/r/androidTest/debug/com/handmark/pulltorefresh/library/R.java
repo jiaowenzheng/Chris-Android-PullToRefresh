@@ -14,6 +14,7 @@ public final class R {
 		public static final int slide_out_to_top = 0x7f040003;
 	}
 	public static final class attr {
+		public static final int layoutManager = 0x7f010013;
 		public static final int ptrAdapterViewBackground = 0x7f010010;
 		public static final int ptrAnimationStyle = 0x7f01000c;
 		public static final int ptrDrawable = 0x7f010006;
@@ -33,6 +34,9 @@ public final class R {
 		public static final int ptrScrollingWhileRefreshingEnabled = 0x7f01000d;
 		public static final int ptrShowIndicator = 0x7f010005;
 		public static final int ptrSubHeaderTextAppearance = 0x7f01000b;
+		public static final int reverseLayout = 0x7f010015;
+		public static final int spanCount = 0x7f010014;
+		public static final int stackFromEnd = 0x7f010016;
 	}
 	public static final class dimen {
 		public static final int header_footer_left_right_padding = 0x7f060000;
@@ -40,6 +44,7 @@ public final class R {
 		public static final int indicator_corner_radius = 0x7f060002;
 		public static final int indicator_internal_padding = 0x7f060003;
 		public static final int indicator_right_padding = 0x7f060004;
+		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f060005;
 	}
 	public static final class drawable {
 		public static final int default_ptr_flip = 0x7f020000;
@@ -49,23 +54,24 @@ public final class R {
 		public static final int indicator_bg_top = 0x7f020004;
 	}
 	public static final class id {
-		public static final int both = 0x7f070003;
-		public static final int disabled = 0x7f070004;
-		public static final int fl_inner = 0x7f07000c;
-		public static final int flip = 0x7f07000a;
+		public static final int both = 0x7f070004;
+		public static final int disabled = 0x7f070005;
+		public static final int fl_inner = 0x7f07000d;
+		public static final int flip = 0x7f07000b;
 		public static final int gridview = 0x7f070000;
-		public static final int manualOnly = 0x7f070005;
-		public static final int pullDownFromTop = 0x7f070006;
-		public static final int pullFromEnd = 0x7f070007;
-		public static final int pullFromStart = 0x7f070008;
-		public static final int pullUpFromBottom = 0x7f070009;
-		public static final int pull_to_refresh_image = 0x7f07000d;
-		public static final int pull_to_refresh_progress = 0x7f07000e;
-		public static final int pull_to_refresh_sub_text = 0x7f070010;
-		public static final int pull_to_refresh_text = 0x7f07000f;
-		public static final int rotate = 0x7f07000b;
-		public static final int scrollview = 0x7f070001;
-		public static final int webview = 0x7f070002;
+		public static final int item_touch_helper_previous_elevation = 0x7f070001;
+		public static final int manualOnly = 0x7f070006;
+		public static final int pullDownFromTop = 0x7f070007;
+		public static final int pullFromEnd = 0x7f070008;
+		public static final int pullFromStart = 0x7f070009;
+		public static final int pullUpFromBottom = 0x7f07000a;
+		public static final int pull_to_refresh_image = 0x7f07000e;
+		public static final int pull_to_refresh_progress = 0x7f07000f;
+		public static final int pull_to_refresh_sub_text = 0x7f070011;
+		public static final int pull_to_refresh_text = 0x7f070010;
+		public static final int rotate = 0x7f07000c;
+		public static final int scrollview = 0x7f070002;
+		public static final int webview = 0x7f070003;
 	}
 	public static final class layout {
 		public static final int pull_to_refresh_header_horizontal = 0x7f030001;
@@ -100,5 +106,11 @@ public final class R {
 		public static final int PullToRefresh_ptrScrollingWhileRefreshingEnabled = 13;
 		public static final int PullToRefresh_ptrShowIndicator = 5;
 		public static final int PullToRefresh_ptrSubHeaderTextAppearance = 11;
+		public static final int[] RecyclerView = { 0x010100c4, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016 };
+		public static final int RecyclerView_android_orientation = 0;
+		public static final int RecyclerView_layoutManager = 1;
+		public static final int RecyclerView_reverseLayout = 3;
+		public static final int RecyclerView_spanCount = 2;
+		public static final int RecyclerView_stackFromEnd = 4;
 	}
 }

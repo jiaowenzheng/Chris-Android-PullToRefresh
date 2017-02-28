@@ -3,9 +3,12 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
-    <TextView
+    <ImageView
         android:id="@+id/list_textview"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
+        android:layout_height="fill_parent"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginLeft="10dp"
+        />
 
-</RelativeLayout><!-- From: file:/Users/mrsimple/dev/github/Android-PullToRefresh-sample/sample/src/main/res/layout/activity_ptr_recycler_item.xml -->
+</RelativeLayout><!-- From: file:/Users/user/git/github_modify/Chris-Android-PullToRefresh/sample/src/main/res/layout/activity_ptr_recycler_item.xml -->
